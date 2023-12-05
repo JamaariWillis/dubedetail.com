@@ -95,20 +95,21 @@ menu, a {
 /*Hero Section*/
 
 .hero {
-    background-image: url(logo.jpeg);
+    background-image: url(Dube\ Detail.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: #0CFFB6;
     text-align: center;
     margin: auto;
     margin-top: 0px;
     width: 100%;
-    height: 470px;
+    height: 400px;
 }
 
 .hero-cover {
   background-color: #00000000;
-  height: 450px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,7 +136,7 @@ menu, a {
     margin-top: 340px;
     letter-spacing: 2px;
     text-transform: lowercase;
-    color: #fff;
+    color: #000000;
     margin-bottom: 30px;
     
 }
@@ -168,7 +169,7 @@ text-align: center;
 }
 
 .pricing {
-background-color: #000000c7;
+background-color: #0CFFB6;
 height: 50px;
 }
 
@@ -217,7 +218,7 @@ list-style-type: circle;
 }
 
 hr {
-border: .5px solid #5f5f5f;
+border: .5px solid #0CFFB6;
 width: 70%;
 margin: 10px auto;
 }
@@ -273,7 +274,7 @@ text-align: center;
 }
 
 .right-box8 h2 {
-background-color: #252223;
+background-color: #0CFFB6;
 width: 100%;
 color: fff;
 }
@@ -315,9 +316,9 @@ text-align: center;
 
 /* Grey box styles */
 .grey-box {
-background-color: #252223;
+background-color: #0CFFB6;
 border: 1px solid #1f1c1d;
-color: #fff;
+color: #000000;
 text-align: left;
 padding: 20px
 }
@@ -348,18 +349,22 @@ line-height: 2;
 /* Call to action button styles */
 .cta-button2 {
 display: flex;
-background-color: #252223;
+background-color: #0CFFB6;
 font-weight: 400;
 font-size: 14px !important;
 border: 1px solid #ffffff86;
-color: #ffffff;
-padding: 10px 30px;
+color: #000;
+padding: 20px 50px;
 text-decoration: none;
 font-size: 20px;
 border-radius: 5px;
 position: relative;
 margin: auto;
 margin-top: 40px;
+}
+
+.cta-button2 a {
+  color: #000;
 }
 
 .cta-button2:hover {
@@ -395,6 +400,70 @@ font-family: 'Roboto Condensed', sans-serif;
 letter-spacing: 1px;
 line-height: 1.7;
 font-weight: 400;
+}
+
+/**/
+
+.reviews-section {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0px;
+}
+
+.rev-h2 {
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+
+.hr {
+  border: .5px solid #0CFFB6;
+  width: 100%;
+  margin: 10px auto;
+  }
+
+#slideshow-container {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 30%;
+  padding-bottom: 40px;
+}
+
+.reviewh3 {
+  margin: 10px 0;
+}
+
+.reviewp {
+  line-height: 30px;
+}
+
+.rev-button {
+  background-color: #0CFFB6;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  padding: 17px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Section styles */
@@ -456,8 +525,8 @@ background-color: lightgrey;
   /* Footer Section */
   .footer {
     padding: 10px 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif';
   }
@@ -465,7 +534,7 @@ background-color: lightgrey;
   .footer2 {
     padding: 70px 0;
     background-color: #f5f5f5;
-    color: #333;
+    color: #000000;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif';
   }
@@ -584,7 +653,7 @@ menu, a {
 /*Hero Section*/
 
 .hero {
-    background-image: url(logo.jpeg);
+    background-image: url(Dube\ Detail.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -611,7 +680,7 @@ menu, a {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
-    font-weight:400;
+    font-weight:bold;
     line-height: 0;
     text-shadow: 0px 0px 4px #fff;
     display: none;
@@ -620,11 +689,11 @@ menu, a {
 
 .title2 {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: bolder;
     margin-top: 460px;
     letter-spacing: 2px;
     text-transform: lowercase;
-    color: #fff;
+    color: #000000;
     margin-bottom: 40px;
     
 }
@@ -706,7 +775,7 @@ list-style-type: circle;
 }
 
 hr {
-border: .5px solid #5f5f5f;
+border: .5px solid #0CFFB6;
 width: 70%;
 margin: 10px auto;
 }
@@ -762,7 +831,7 @@ text-align: center;
 }
 
 .right-box8 h2 {
-background-color: #252223;
+background-color: #0CFFB6;
 width: 100%;
 color: fff;
 }
@@ -778,10 +847,11 @@ font-size: 19px;
 /* Style for the call to action button */
 .cta-button {
 margin-top: 70px;
+
 }
 
 .button {
-color: #fff;
+color: #000;
 border: 1px solid #fff;
 padding: 10px 20px;
 text-decoration: none;
@@ -804,11 +874,11 @@ text-align: center;
 
 /* Grey box styles */
 .grey-box {
-background-color: #252223;
+background-color: #0CFFB6;
 border: 1px solid #1f1c1d;
-color: #fff;
+color: #000000;
 text-align: left;
-padding: 20px
+padding: 50px 20px
 }
 
 .grey-box h2 {
@@ -837,13 +907,12 @@ line-height: 2;
 /* Call to action button styles */
 .cta-button2 {
 display: flex;
-background-color: #252223;
+background-color: #0CFFB6;
+color: #000 !important;
 font-weight: 400;
 font-size: 14px !important;
 border: 1px solid #ffffff86;
-color: #ffffff;
-padding: 10px 30px;
-text-decoration: none;
+padding: 20px 60px;
 font-size: 20px;
 border-radius: 5px;
 position: relative;
@@ -851,8 +920,17 @@ margin: auto;
 margin-top: 40px;
 }
 
+.cta-button2 a {
+  color: #000;
+}
+
+button {
+  color: #000 !important;
+}
+
 .cta-button2:hover {
 background-color: lightgrey;
+color: #000;
 }
 
 .wash-section {
@@ -884,6 +962,70 @@ font-family: 'Roboto Condensed', sans-serif;
 letter-spacing: 1px;
 line-height: 1.7;
 font-weight: 400;
+}
+
+/**/
+
+.reviews-section {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 50px;
+}
+
+.rev-h2 {
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+
+.hr {
+  border: .5px solid #0CFFB6;
+  width: 100%;
+  margin: 10px auto;
+  }
+
+#slideshow-container {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 40px;
+}
+
+.reviewh3 {
+  margin: 10px 0;
+}
+
+.reviewp {
+  line-height: 30px;
+}
+
+.rev-button {
+  background-color: #0CFFB6;
+  color: rgb(255, 255, 255);
+  border: 1px solid;
+  padding: 17px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Section styles */
@@ -971,13 +1113,15 @@ background-color: lightgrey;
   
   .footer-social a {
     font-size: 16px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-decoration: none;
   }
+
+ 
   
   .footer-links a {
     font-size: 12px;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
   }
 }
@@ -987,7 +1131,7 @@ background-color: lightgrey;
 .navbar {
     position: fixed;
     background-color: transparent;
-    color: #fff;
+    color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1012,7 +1156,7 @@ background-color: lightgrey;
     right: 0px;
     width: 30%;
     height: 90px;
-    background-color: #17171700;
+    background-color: #00000000;
     text-align: center;
     z-index: 1;
 }
@@ -1022,7 +1166,7 @@ menu, li {
 }
 
 menu, a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
    
 }
@@ -1043,7 +1187,7 @@ menu, a {
 .bar {
     width: 25px;
     height: 2px;
-    background-color: #fff;
+    background-color: #000000;
     margin: 3px 0;
     transition: 0.4s;
 }
@@ -1069,7 +1213,7 @@ menu, a {
 /*Hero Section*/
 
 .hero {
-  background-color: #252223;
+  background-color: #0CFFB6;
   text-align: center;
   margin: auto;
   margin-top: 0px;
@@ -1089,7 +1233,7 @@ justify-content: center;
 
 
 .title {
-  background-image: url(logo4.png);
+  background-image: url(Dube\ Detail.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1107,7 +1251,7 @@ justify-content: center;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: lowercase;
-  color: #fff;
+  color: #000000;
   
 }
 
@@ -1188,7 +1332,7 @@ list-style-type:circle;
 }
 
 hr {
-border: .5px solid #5f5f5f;
+border: .5px solid #0CFFB6;
 width: 70%;
 margin: 10px auto;
 }
@@ -1246,7 +1390,7 @@ text-align: center;
 }
 
 .right-box8 h2 {
-background-color: #252223;
+background-color: #0CFFB6;
 width: 100%;
 color: fff;
 }
@@ -1280,7 +1424,7 @@ background-color: #0056b3;
 
 /* Section styles */
 .custom-section {
-background-color: #252223;
+background-color: #0CFFB6;
 
 text-align: center;
 
@@ -1288,9 +1432,9 @@ text-align: center;
 
 /* Grey box styles */
 .grey-box {
-background-color: #252223;
+background-color: #0CFFB6;
 border: 1px solid #1f1c1d;
-color: #fff;
+color: #000000;
 text-align: left;
 padding: 20px
 }
@@ -1321,18 +1465,23 @@ line-height: 2;
 /* Call to action button styles */
 .cta-button2 {
 display: flex;
-background-color: #252223;
+background-color: #0CFFB6;
 font-weight: 400;
-font-size: 14px !important;
+font-size: 17px !important;
 border: 1px solid #ffffff86;
-color: #ffffff;
-padding: 10px 30px;
+color: #000;
+padding: 20px 70px;
 text-decoration: none;
 font-size: 20px;
 border-radius: 5px;
 position: relative;
 margin: auto;
 margin-top: 40px;
+}
+
+.cta-button2 a {
+
+  color: #000;
 }
 
 .cta-button2:hover {
@@ -1367,6 +1516,70 @@ font-family: 'Roboto Condensed', sans-serif;
 letter-spacing: 1px;
 line-height: 1.7;
 font-weight: 400;
+}
+
+/**/
+
+.reviews-section {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 50px;
+}
+
+.rev-h2 {
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+
+.hr {
+  border: .5px solid #0CFFB6;
+  width: 100%;
+  margin: 10px auto;
+  }
+
+#slideshow-container {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 40px;
+}
+
+.reviewh3 {
+  margin: 10px 0;
+}
+
+.reviewp {
+  line-height: 30px;
+}
+
+.rev-button {
+  background-color: #0CFFB6;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  padding: 17px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Section styles */
@@ -1428,8 +1641,8 @@ background-color: lightgrey;
 /* Footer Section */
 .footer {
   padding: 10px 0;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif';
 }
@@ -1454,14 +1667,18 @@ background-color: lightgrey;
 
 .footer-social a {
   font-size: 16px;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   text-decoration: none;
 }
 
 .footer-links a {
   font-size: 12px;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
+}
+
+a {
+  color: #fff;
 }
 
 
@@ -1520,9 +1737,13 @@ menu, li {
 }
 
 menu, a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
    
+}
+
+.menu li, a {
+  color: #000 !important;
 }
 
 
@@ -1533,7 +1754,7 @@ menu, a {
 /*Hero Section*/
 
 .hero {
-  background-color: #252223;
+  background-color: #0CFFB6;
   text-align: center;
   margin: auto;
   margin-top: 0px;
@@ -1553,7 +1774,7 @@ justify-content: center;
 
 
 .title {
-  background-image: url(logo4.png);
+  background-image: url(Dube\ Detail.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1571,7 +1792,7 @@ justify-content: center;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: lowercase;
-  color: #fff;
+  color: #000000;
   
 }
 
@@ -1652,7 +1873,7 @@ list-style-type:circle;
 }
 
 hr {
-border: .5px solid #5f5f5f;
+border: .5px solid #0CFFB6;
 width: 70%;
 margin: 10px auto;
 }
@@ -1710,7 +1931,7 @@ text-align: center;
 }
 
 .right-box8 h2 {
-background-color: #252223;
+background-color: #0CFFB6;
 width: 100%;
 color: fff;
 }
@@ -1752,11 +1973,11 @@ text-align: center;
 
 /* Grey box styles */
 .grey-box {
-background-color: #252223;
+background-color: #0CFFB6;
 border: 1px solid #1f1c1d;
-color: #fff;
+color: #000000;
 text-align: left;
-padding: 20px
+padding: 20px;
 }
 
 .grey-box h2 {
@@ -1785,18 +2006,22 @@ line-height: 2;
 /* Call to action button styles */
 .cta-button2 {
 display: flex;
-background-color: #252223;
+background-color: #0CFFB6;
 font-weight: 400;
 font-size: 14px !important;
 border: 1px solid #ffffff86;
-color: #ffffff;
-padding: 10px 30px;
+color: #000;
+padding: 40px 80px;
 text-decoration: none;
 font-size: 20px;
 border-radius: 5px;
 position: relative;
 margin: auto;
 margin-top: 40px;
+}
+
+.cta-button2 a {
+  color: #000;
 }
 
 .cta-button2:hover {
@@ -1831,6 +2056,70 @@ font-family: 'Roboto Condensed', sans-serif;
 letter-spacing: 1px;
 line-height: 1.7;
 font-weight: 400;
+}
+
+/**/
+
+.reviews-section {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 50px;
+}
+
+.rev-h2 {
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+}
+
+.hr {
+  border: .5px solid #0CFFB6;
+  width: 100%;
+  margin: 10px auto;
+  }
+
+#slideshow-container {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.reviewh3 {
+  margin: 10px 0;
+}
+
+.reviewp {
+  line-height: 30px;
+}
+
+.rev-button {
+  background-color: #0CFFB6;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  padding: 17px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Section styles */
@@ -1892,8 +2181,8 @@ background-color: lightgrey;
 /* Footer Section */
 .footer {
   padding: 10px 0;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif';
 }
@@ -1920,5 +2209,8 @@ background-color: lightgrey;
   text-decoration: none;
 }
 
+a {
+  color: #fff;
+}
 
 }
